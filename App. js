@@ -1,0 +1,17 @@
+import ToursList from './ToursList';
+
+function App() {
+  return (
+    <div className="App">
+      <header>
+        <h1>مرحباً بكم في Mahsas Travel</h1>
+      </header>
+      <main>
+        <ToursList />
+      </main>
+    </div>
+  );
+}
+
+export default App;
+

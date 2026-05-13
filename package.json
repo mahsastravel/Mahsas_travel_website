@@ -1,0 +1,9 @@
+{
+  "name": "mahsas-travel-website",
+  "version": "1.0.0",
+  "dependencies": {
+    "@supabase/supabase-js": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  }
+}

@@ -1,0 +1,46 @@
+/* تصميم عام للموقع */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7f6;
+  margin: 0;
+  padding: 20px;
+  direction: rtl; /* باش يجي الكلام من اليمين لليسار */
+}
+
+h1 {
+  color: #e74c3c; /* لون أحمر احترافي للعناوين */
+  text-align: center;
+  border-bottom: 3px solid #e74c3c; /* خط أحمر تحت العنوان الأساسي */
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+/* تنسيق بطاقة الرحلة (مثل رحلة العمرة) */
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+li {
+  background: white;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  width: 250px;
+  text-align: center;
+  font-weight: bold;
+  color: #c0392b; /* لون أحمر غامق للنصوص داخل البطاقة */
+  border: 2px solid #e74c3c; /* إطار أحمر للبطاقة */
+  transition: transform 0.3s ease;
+}
+
+/* حركة بسيطة كي تحطي الفأرة فوق البطاقة */
+li:hover {
+  transform: translateY(-10px);
+  background-color: #fff5f5; /* خلفية حمراء خفيفة جدا عند التمرير */
+}
+
